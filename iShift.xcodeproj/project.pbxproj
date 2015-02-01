@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0017C71630557C00452E09 /* iShift.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0017C61630557C00452E09 /* iShift.png */; };
+		DE5032B61639023F00723602 /* shiftBunch.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5032B51639023F00723602 /* shiftBunch.m */; };
+		DE8DF8391630283F005D6FF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8DF8381630283F005D6FF0 /* UIKit.framework */; };
+		DE8DF83B1630283F005D6FF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8DF83A1630283F005D6FF0 /* Foundation.framework */; };
+		DE8DF83D1630283F005D6FF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8DF83C1630283F005D6FF0 /* CoreGraphics.framework */; };
+		DE8DF8431630283F005D6FF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE8DF8411630283F005D6FF0 /* InfoPlist.strings */; };
+		DE8DF8451630283F005D6FF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DF8441630283F005D6FF0 /* main.m */; };
+		DE8DF8491630283F005D6FF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DF8481630283F005D6FF0 /* AppDelegate.m */; };
+		DE8DF84C1630283F005D6FF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8DF84A1630283F005D6FF0 /* MainStoryboard.storyboard */; };
+		DE8DF84F1630283F005D6FF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DF84E1630283F005D6FF0 /* ViewController.m */; };
+		DE8DF86516302A72005D6FF0 /* shift.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DF86416302A72005D6FF0 /* shift.m */; };
+		DE8DF8681630346D005D6FF0 /* BLUE.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8DF8661630346D005D6FF0 /* BLUE.png */; };
+		DE8DF8691630346D005D6FF0 /* RED.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8DF8671630346D005D6FF0 /* RED.png */; };
+		DE8DF86C16303789005D6FF0 /* contact.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DF86B16303789005D6FF0 /* contact.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE0017C61630557C00452E09 /* iShift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iShift.png; sourceTree = "<group>"; };
+		DE5032B41639023F00723602 /* shiftBunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shiftBunch.h; sourceTree = "<group>"; };
+		DE5032B51639023F00723602 /* shiftBunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shiftBunch.m; sourceTree = "<group>"; };
+		DE8DF8341630283F005D6FF0 /* iShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8DF8381630283F005D6FF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE8DF83A1630283F005D6FF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE8DF83C1630283F005D6FF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE8DF8401630283F005D6FF0 /* iShift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iShift-Info.plist"; sourceTree = "<group>"; };
+		DE8DF8421630283F005D6FF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE8DF8441630283F005D6FF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8DF8461630283F005D6FF0 /* iShift-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iShift-Prefix.pch"; sourceTree = "<group>"; };
+		DE8DF8471630283F005D6FF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8DF8481630283F005D6FF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8DF84B1630283F005D6FF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE8DF84D1630283F005D6FF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE8DF84E1630283F005D6FF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE8DF86316302A72005D6FF0 /* shift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shift.h; sourceTree = "<group>"; };
+		DE8DF86416302A72005D6FF0 /* shift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shift.m; sourceTree = "<group>"; };
+		DE8DF8661630346D005D6FF0 /* BLUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BLUE.png; sourceTree = "<group>"; };
+		DE8DF8671630346D005D6FF0 /* RED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RED.png; sourceTree = "<group>"; };
+		DE8DF86A16303789005D6FF0 /* contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contact.h; sourceTree = "<group>"; };
+		DE8DF86B16303789005D6FF0 /* contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contact.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8DF8311630283F005D6FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8DF8391630283F005D6FF0 /* UIKit.framework in Frameworks */,
+				DE8DF83B1630283F005D6FF0 /* Foundation.framework in Frameworks */,
+				DE8DF83D1630283F005D6FF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8DF8291630283F005D6FF0 = {
+			isa = PBXGroup;
+			children = (
+				DE0017C61630557C00452E09 /* iShift.png */,
+				DE8DF83E1630283F005D6FF0 /* iShift */,
+				DE8DF8371630283F005D6FF0 /* Frameworks */,
+				DE8DF8351630283F005D6FF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8DF8351630283F005D6FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DF8341630283F005D6FF0 /* iShift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8DF8371630283F005D6FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DF8381630283F005D6FF0 /* UIKit.framework */,
+				DE8DF83A1630283F005D6FF0 /* Foundation.framework */,
+				DE8DF83C1630283F005D6FF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8DF83E1630283F005D6FF0 /* iShift */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DF8471630283F005D6FF0 /* AppDelegate.h */,
+				DE8DF8481630283F005D6FF0 /* AppDelegate.m */,
+				DE8DF84A1630283F005D6FF0 /* MainStoryboard.storyboard */,
+				DE8DF84D1630283F005D6FF0 /* ViewController.h */,
+				DE8DF84E1630283F005D6FF0 /* ViewController.m */,
+				DE8DF83F1630283F005D6FF0 /* Supporting Files */,
+				DE8DF86A16303789005D6FF0 /* contact.h */,
+				DE8DF86B16303789005D6FF0 /* contact.m */,
+				DE5032B41639023F00723602 /* shiftBunch.h */,
+				DE5032B51639023F00723602 /* shiftBunch.m */,
+				DE8DF8661630346D005D6FF0 /* BLUE.png */,
+				DE8DF8671630346D005D6FF0 /* RED.png */,
+				DE8DF86416302A72005D6FF0 /* shift.m */,
+				DE8DF86316302A72005D6FF0 /* shift.h */,
+			);
+			path = iShift;
+			sourceTree = "<group>";
+		};
+		DE8DF83F1630283F005D6FF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DF8401630283F005D6FF0 /* iShift-Info.plist */,
+				DE8DF8411630283F005D6FF0 /* InfoPlist.strings */,
+				DE8DF8441630283F005D6FF0 /* main.m */,
+				DE8DF8461630283F005D6FF0 /* iShift-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8DF8331630283F005D6FF0 /* iShift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8DF8521630283F005D6FF0 /* Build configuration list for PBXNativeTarget "iShift" */;
+			buildPhases = (
+				DE8DF8301630283F005D6FF0 /* Sources */,
+				DE8DF8311630283F005D6FF0 /* Frameworks */,
+				DE8DF8321630283F005D6FF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iShift;
+			productName = iShift;
+			productReference = DE8DF8341630283F005D6FF0 /* iShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8DF82B1630283F005D6FF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DE8DF82E1630283F005D6FF0 /* Build configuration list for PBXProject "iShift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE8DF8291630283F005D6FF0;
+			productRefGroup = DE8DF8351630283F005D6FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8DF8331630283F005D6FF0 /* iShift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8DF8321630283F005D6FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8DF8431630283F005D6FF0 /* InfoPlist.strings in Resources */,
+				DE8DF84C1630283F005D6FF0 /* MainStoryboard.storyboard in Resources */,
+				DE8DF8681630346D005D6FF0 /* BLUE.png in Resources */,
+				DE8DF8691630346D005D6FF0 /* RED.png in Resources */,
+				DE0017C71630557C00452E09 /* iShift.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8DF8301630283F005D6FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8DF8451630283F005D6FF0 /* main.m in Sources */,
+				DE8DF8491630283F005D6FF0 /* AppDelegate.m in Sources */,
+				DE8DF84F1630283F005D6FF0 /* ViewController.m in Sources */,
+				DE8DF86516302A72005D6FF0 /* shift.m in Sources */,
+				DE8DF86C16303789005D6FF0 /* contact.m in Sources */,
+				DE5032B61639023F00723602 /* shiftBunch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8DF8411630283F005D6FF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8DF8421630283F005D6FF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE8DF84A1630283F005D6FF0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8DF84B1630283F005D6FF0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8DF8501630283F005D6FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DE8DF8511630283F005D6FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8DF8531630283F005D6FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iShift/iShift-Prefix.pch";
+				INFOPLIST_FILE = "iShift/iShift-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE8DF8541630283F005D6FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iShift/iShift-Prefix.pch";
+				INFOPLIST_FILE = "iShift/iShift-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8DF82E1630283F005D6FF0 /* Build configuration list for PBXProject "iShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8DF8501630283F005D6FF0 /* Debug */,
+				DE8DF8511630283F005D6FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8DF8521630283F005D6FF0 /* Build configuration list for PBXNativeTarget "iShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8DF8531630283F005D6FF0 /* Debug */,
+				DE8DF8541630283F005D6FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8DF82B1630283F005D6FF0 /* Project object */;
+}
